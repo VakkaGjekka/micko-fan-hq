@@ -2,12 +2,12 @@ import { motion } from "framer-motion";
 import { Star } from "lucide-react";
 
 const testimonials = [
-  { name: "Filip", text: "10/10 friend. Would recommend to anyone. Sometimes I get a bit clingy with him but i cant help it he is so hot", stars: 5 },
-  { name: "Kristi", text: "Legend in the making. Actually, already a legend. Micko goat would make him the Ulcinj major", stars: 5 },
-  { name: "Arslan", text: "Would hang out again. And again. And again. He got that rizz and the huzz", stars: 5 },
-  { name: "Ervan", text: "Micko walked in and now i cant focus but to watch his sexy face", stars: 5 },
-  { name: "Trump", text: "If Micko was in USA the war would never happen cuz they wouldnt touch a montenegrin sexy papi like him", stars: 5 },
-  { name: "Xi Jinping", text: "他拥有硕大的臀部和其他一些硕大的东西。", stars: 5 },
+  { name: "Ervan", text: "10/10 friend. Would recommend to anyone. Sometimes I get a bit clingy with him but i cant help it he is so hot", stars: 5 },
+  { name: "Armin", text: "Legend in the making. Actually, already a legend. Dino goat would make him the Tutin major", stars: 5 },
+  { name: "Lelja Sehovic", text: "he got that burger looking butttt", stars: 5 },
+  { name: "Tikka", text: "He a cuttie pattotie , gotta start that gym thooo", stars: 5 },
+  { name: "Trump", text: "If Dino was in USA the war would never happen cuz they wouldnt touch a swedish sexy papi like him", stars: 5 },
+  { name: "Ibrahimovic", text: "I used to watch Dino play football growing up, thank god he diced to become fully balkan otherwise i wouldnt touch the ball again", stars: 5 },
 ];
 
 const TestimonialsSection = () => {

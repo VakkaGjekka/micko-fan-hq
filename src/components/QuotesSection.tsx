@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 
 const quotes = [
-  { text: "Ni Hao fine shyt", emoji: "🧠" },
+  { text: "Hej broski, vi vill äta en stor hamburgare", emoji: "🧠" },
   { text: "That's a future me problem.", emoji: "😎" },
-  { text: "I'm not late, I'm just MICKO", emoji: "⌚" },
-  { text: "Dje si mala, sto ciniiiiiiisss", emoji: "💰" },
-  { text: "sometimes Filip watches me in a naughty way, me gusta", emoji: "📺" },
-  { text: "My plans? I don't make plans. Plans make Micko", emoji: "🗓️" },
+  { text: "I'm not late, I'm just Dino", emoji: "⌚" },
+  { text: "eri drives, papi criesssssss, joking love ERIIII", emoji: "💰" },
+  { text: "sometimes Vakka flirts with me, Jag gillar det ", emoji: "📺" },
+  { text: "My plans? I don't make plans. Plans make Swedish papinhooo", emoji: "🗓️" },
 ];
 
 const QuotesSection = () => {

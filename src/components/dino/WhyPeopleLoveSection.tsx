@@ -5,7 +5,7 @@ const WhyPeopleLoveSection = () => (
   <section className="section-padding bg-muted">
     <div className="container max-w-5xl mx-auto">
       <motion.h2 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-4xl md:text-6xl font-display text-center bg-clip-text text-transparent bg-gradient-to-r from-[hsl(var(--dino-blue))] to-[hsl(var(--dino-gold))] mb-14">
-        Why People Love Dino
+        Why People Love Swedish Papi
       </motion.h2>
       <motion.div initial="hidden" whileInView="show" viewport={{ once: true }} variants={{ hidden: {}, show: { transition: { staggerChildren: 0.15 } } }} className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {reasons.map((r) => (

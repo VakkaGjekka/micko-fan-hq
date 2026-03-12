@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import dinoHero from "@/assets/DinoHero.jpg";
 
 const HeroSection = () => (
   <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-[hsl(var(--dino-blue))] to-[hsl(var(--dino-navy))]">
