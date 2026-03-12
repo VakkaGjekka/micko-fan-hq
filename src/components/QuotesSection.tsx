@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 
 const quotes = [
-  { text: "Bro, trust me on this one.", emoji: "🧠" },
+  { text: "Ni Hao fine shyt", emoji: "🧠" },
   { text: "That's a future me problem.", emoji: "😎" },
-  { text: "I'm not late, I'm fashionably timed.", emoji: "⌚" },
-  { text: "If vibes were currency, I'd be a billionaire.", emoji: "💰" },
-  { text: "Sleep is for people without Netflix.", emoji: "📺" },
-  { text: "My plans? I don't make plans. Plans make me.", emoji: "🗓️" },
+  { text: "I'm not late, I'm just MICKO", emoji: "⌚" },
+  { text: "Dje si mala, sto ciniiiiiiisss", emoji: "💰" },
+  { text: "sometimes Filip watches me in a naughty way, me gusta", emoji: "📺" },
+  { text: "My plans? I don't make plans. Plans make Micko", emoji: "🗓️" },
 ];
 
 const QuotesSection = () => {

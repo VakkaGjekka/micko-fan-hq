@@ -2,12 +2,12 @@ import { motion } from "framer-motion";
 import { Star } from "lucide-react";
 
 const testimonials = [
-  { name: "Alex", text: "10/10 friend. Would recommend to anyone.", stars: 5 },
-  { name: "Sarah", text: "Legend in the making. Actually, already a legend.", stars: 5 },
-  { name: "Jake", text: "Would hang out again. And again. And again.", stars: 5 },
-  { name: "Emma", text: "Micko walked in and the whole vibe changed. For the better.", stars: 5 },
-  { name: "Chris", text: "If friendship was a sport, Micko would be MVP every season.", stars: 5 },
-  { name: "Mia", text: "He once made me laugh so hard I cried for 20 minutes.", stars: 5 },
+  { name: "Filip", text: "10/10 friend. Would recommend to anyone. Sometimes I get a bit clingy with him but i cant help it he is so hot", stars: 5 },
+  { name: "Kristi", text: "Legend in the making. Actually, already a legend. Micko goat would make him the Ulcinj major", stars: 5 },
+  { name: "Arslan", text: "Would hang out again. And again. And again. He got that rizz and the huzz", stars: 5 },
+  { name: "Ervan", text: "Micko walked in and now i cant focus but to watch his sexy face", stars: 5 },
+  { name: "Trump", text: "If Micko was in USA the war would never happen cuz they wouldnt touch a montenegrin sexy papi like him", stars: 5 },
+  { name: "Xi Jinping", text: "他拥有硕大的臀部和其他一些硕大的东西。", stars: 5 },
 ];
 
 const TestimonialsSection = () => {
