@@ -5,10 +5,10 @@ import gallery3 from "@/assets/micko-gallery-3.jpg";
 import gallery4 from "@/assets/micko-gallery-4.jpg";
 
 const photos = [
-  { src: gallery1, caption: "Micko bringing the vibes at BBQ 🔥" },
-  { src: gallery2, caption: "Dance floor legend 🕺" },
-  { src: gallery3, caption: "Main character energy ☕" },
-  { src: gallery4, caption: "Beach mode: activated 🏖️" },
+  { src: gallery1, caption: "Micko keeping it casual 😎" },
+  { src: gallery2, caption: "The classic Micko headshot 📸" },
+  { src: gallery3, caption: "Suave and sophisticated ✨" },
+  { src: gallery4, caption: "Brotherly love in the snow ❄️" },
 ];
 
 const HallOfFameSection = () => {
