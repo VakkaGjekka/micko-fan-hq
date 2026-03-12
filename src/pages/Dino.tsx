@@ -1,13 +1,13 @@
 import { useState, useEffect } from "react";
-import HeroSection from "./HeroSection";
-import BioSection from "./BioSection";
-import WhyPeopleLoveSection from "./WhyPeopleLoveSection";
-import QuotesSection from "./QuotesSection";
-import TestimonialsSection from "./TestimonialsSection";
-import JoinSection from "./JoinSection";
-import FanMessagesSection from "./FanMessagesSection";
-import Footer from "./Footer";
-import { STORAGE_KEY } from "./data";
+import HeroSection from "../components/dino/HeroSection";
+import BioSection from "../components/dino/BioSection";
+import WhyPeopleLoveSection from "../components/dino/WhyPeopleLoveSection";
+import QuotesSection from "../components/dino/QuotesSection";
+import TestimonialsSection from "../components/dino/TestimonialsSection";
+import JoinSection from "../components/dino/JoinSection";
+import FanMessagesSection from "../components/dino/FanMessagesSection";
+import Footer from "../components/dino/Footer";
+import { STORAGE_KEY } from "../components/dino/data";
 
 interface FanMessage {
   name: string;
