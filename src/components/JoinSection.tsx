@@ -1,14 +1,20 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { toast } from "sonner";
+import { FanMessage } from "./FanMessagesSection";
 
-const JoinSection = () => {
+interface JoinSectionProps {
+  onNewMessage: (msg: FanMessage) => void;
+}
+
+const JoinSection = ({ onNewMessage }: JoinSectionProps) => {
   const [name, setName] = useState("");
   const [message, setMessage] = useState("");
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!name.trim()) return;
+    if (!name.trim() || !message.trim()) return;
+    onNewMessage({ name: name.trim(), message: message.trim(), timestamp: Date.now() });
     toast.success(`Welcome to the Micko Fan Club, ${name}! 🎉`);
     setName("");
     setMessage("");
