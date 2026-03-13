@@ -1,14 +1,14 @@
 import { motion } from "framer-motion";
-import gallery1 from "@/assets/DinoArt.jpg";
-import gallery2 from "@/assets/DinoEye.jpg";
-import gallery3 from "@/assets/DinoSmile.jpg";
-import gallery4 from "@/assets/ShyDino.jpg";
+import gallery1 from "@/assets/DinoCafe.jpg";
+import gallery2 from "@/assets/DinoScarf.jpg";
+import gallery3 from "@/assets/DinoMuseum.jpg";
+import gallery4 from "@/assets/DinoPark.jpg";
 
 const photos = [
-  { src: gallery1, caption: "Sweedish papi keeping it cool keeping it casual 😎" },
-  { src: gallery2, caption: "The classic papi headshot 📸" },
-  { src: gallery3, caption: "Suave and sophisticated ✨" },
-  { src: gallery4, caption: "breeze papi breezeee❄️" },
+  { src: gallery1, caption: "Swedish Papi keeping it casual at the café ☕" },
+  { src: gallery2, caption: "Mystery mode activated 🧣😎" },
+  { src: gallery3, caption: "Art appreciator extraordinaire 🎨" },
+  { src: gallery4, caption: "Park Güell? More like Park Papi 🌴" },
 ];
 
 const HallOfFameSection = () => {

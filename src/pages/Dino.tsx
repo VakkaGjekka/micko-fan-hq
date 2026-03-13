@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import HeroSection from "../components/dino/HeroSection";
 import BioSection from "../components/dino/BioSection";
 import WhyPeopleLoveSection from "../components/dino/WhyPeopleLoveSection";
+import HallOfFameSection from "../components/dino/HallOfFameSection";
 import QuotesSection from "../components/dino/QuotesSection";
 import TestimonialsSection from "../components/dino/TestimonialsSection";
 import JoinSection from "../components/dino/JoinSection";
@@ -27,6 +28,7 @@ const Dino = () => {
       <HeroSection />
       <BioSection />
       <WhyPeopleLoveSection />
+      <HallOfFameSection />
       <QuotesSection />
       <TestimonialsSection />
       <JoinSection onNewMessage={handleNewMessage} />
