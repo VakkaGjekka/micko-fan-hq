@@ -10,7 +10,7 @@ const BioSection = () => {
           viewport={{ once: true }}
           className="text-4xl md:text-6xl font-display text-gradient mb-8"
         >
-          Who is Micko?
+          Who is swedish papi?
         </motion.h2>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
