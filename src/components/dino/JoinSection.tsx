@@ -15,7 +15,7 @@ const JoinSection = ({ onNewMessage }: JoinSectionProps) => {
     e.preventDefault();
     if (!name.trim() || !message.trim()) return;
     onNewMessage({ name: name.trim(), message: message.trim(), timestamp: Date.now() });
-    toast.success(`Welcome to the Micko Fan Club, ${name}! 🎉`);
+    toast.success(`Welcome to the Swedish Papi Fan Club, ${name}! 🎉`);
     setName("");
     setMessage("");
   };
