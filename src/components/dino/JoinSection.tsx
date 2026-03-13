@@ -58,11 +58,11 @@ const JoinSection = ({ onNewMessage }: JoinSectionProps) => {
             />
           </div>
           <div>
-            <label className="block text-sm font-body font-semibold text-foreground mb-1">Message for Micko</label>
+            <label className="block text-sm font-body font-semibold text-foreground mb-1">Message for Swedish Papi</label>
             <textarea
               value={message}
               onChange={(e) => setMessage(e.target.value)}
-              placeholder="Tell Micko how awesome he is..."
+              placeholder="Tell Swedish Papi how awesome he is..."
               rows={4}
               className="w-full px-4 py-3 rounded-xl border border-border bg-background font-body text-foreground focus:outline-none focus:ring-2 focus:ring-primary transition-shadow resize-none"
             />

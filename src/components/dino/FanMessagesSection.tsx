@@ -22,7 +22,7 @@ const FanMessagesSection = ({ messages }: FanMessagesSectionProps) => {
           viewport={{ once: true }}
           className="text-4xl md:text-6xl font-display text-center text-foreground mb-4"
         >
-          Micko Fan Messages 💌
+          Swedish Papi Fan Messages 💌
         </motion.h2>
         <motion.p
           initial={{ opacity: 0 }}
