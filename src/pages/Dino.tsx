@@ -5,15 +5,9 @@ import WhyPeopleLoveSection from "../components/dino/WhyPeopleLoveSection";
 import QuotesSection from "../components/dino/QuotesSection";
 import TestimonialsSection from "../components/dino/TestimonialsSection";
 import JoinSection from "../components/dino/JoinSection";
-import FanMessagesSection from "../components/dino/FanMessagesSection";
+import FanMessagesSection, { FanMessage } from "../components/dino/FanMessagesSection";
 import Footer from "../components/dino/Footer";
 import { STORAGE_KEY } from "../components/dino/data";
-
-interface FanMessage {
-  name: string;
-  message: string;
-  timestamp: string;
-}
 
 const Dino = () => {
   const [fanMessages, setFanMessages] = useState<FanMessage[]>(() => {
@@ -24,12 +18,8 @@ const Dino = () => {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(fanMessages));
   }, [fanMessages]);
 
-  const handleMessageSubmit = (name: string, message: string) => {
-    setFanMessages(prev => [{
-      name,
-      message,
-      timestamp: new Date().toISOString()
-    }, ...prev]);
+  const handleNewMessage = (msg: FanMessage) => {
+    setFanMessages(prev => [msg, ...prev]);
   };
 
   return (
@@ -39,7 +29,7 @@ const Dino = () => {
       <WhyPeopleLoveSection />
       <QuotesSection />
       <TestimonialsSection />
-      <JoinSection onMessageSubmit={handleMessageSubmit} />
+      <JoinSection onNewMessage={handleNewMessage} />
       <FanMessagesSection messages={fanMessages} />
       <Footer />
     </div>
