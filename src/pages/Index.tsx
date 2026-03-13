@@ -1,13 +1,12 @@
 import { useState, useEffect } from "react";
-import HeroSection from "@/components/HeroSection";
-import BioSection from "@/components/BioSection";
-import WhyPeopleLoveSection from "@/components/WhyPeopleLoveSection";
-import HallOfFameSection from "@/components/HallOfFameSection";
-import QuotesSection from "@/components/QuotesSection";
-import TestimonialsSection from "@/components/TestimonialsSection";
-import JoinSection from "@/components/JoinSection";
-import FanMessagesSection, { FanMessage } from "@/components/FanMessagesSection";
-import Footer from "@/components/Footer";
+import HeroSection from "@/components/dino/HeroSection";
+import BioSection from "@/components/dino/BioSection";
+import WhyPeopleLoveSection from "@/components/dino/WhyPeopleLoveSection";
+import QuotesSection from "@/components/dino/QuotesSection";
+import TestimonialsSection from "@/components/dino/TestimonialsSection";
+import JoinSection from "@/components/dino/JoinSection";
+import FanMessagesSection, { FanMessage } from "@/components/dino/FanMessagesSection";
+import Footer from "@/components/dino/Footer";
 
 const STORAGE_KEY = "micko-fan-messages";
 
@@ -31,7 +30,6 @@ const Index = () => {
       <HeroSection />
       <BioSection />
       <WhyPeopleLoveSection />
-      <HallOfFameSection />
       <QuotesSection />
       <TestimonialsSection />
       <JoinSection onNewMessage={handleNewMessage} />
