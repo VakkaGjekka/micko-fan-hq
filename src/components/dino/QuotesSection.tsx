@@ -35,7 +35,7 @@ const QuotesSection = () => {
             >
               <span className="text-3xl mb-3 block">{quote.emoji}</span>
               <p className="text-lg font-body text-foreground italic">"{quote.text}"</p>
-              <p className="text-sm text-muted-foreground mt-2 font-body">— Micko, probably</p>
+              <p className="text-sm text-muted-foreground mt-2 font-body">— Swedish Papi, probably</p>
             </motion.div>
           ))}
         </div>

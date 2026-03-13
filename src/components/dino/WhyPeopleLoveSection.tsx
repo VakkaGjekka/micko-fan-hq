@@ -28,7 +28,7 @@ const WhyPeopleLoveSection = () => {
           viewport={{ once: true }}
           className="text-4xl md:text-6xl font-display text-center text-gradient mb-14"
         >
-          Why People Love Micko
+          Why People Love Swedish Papi
         </motion.h2>
 
         <motion.div
